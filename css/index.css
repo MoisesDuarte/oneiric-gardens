@@ -1,0 +1,70 @@
+/* Showcase Principal */
+.showcase {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: var(--text-white);
+}
+
+.button {
+    border: 1px solid var(--text-white);
+    border-radius: 6px;
+    color: var(--text-white);
+    padding: 12px;
+    text-decoration: none;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container:after { /* Overlay do video */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    z-index: 10;
+}
+
+h1 {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/* INTRODUÇÃO */
+.introducao {
+    font-size: 150%;
+    text-align: justify;
+    padding: 32px;
+    line-height: 2;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
