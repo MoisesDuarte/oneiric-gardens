@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 16px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    overflow: hidden;
+}
+
+.item > p:first-child {
+    padding: 16px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.item > img {
+    width: 100%;
+}
+
+.item > div {
+    padding: 16px;
+}
+
+.item > div > a {
+    float: right;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+    color: var(--text-white);
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+
