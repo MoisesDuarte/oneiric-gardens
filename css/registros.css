@@ -5,6 +5,7 @@
     margin: 16px;
 }
 
+/* Item de Grid */
 .item {
     display: flex;
     flex-direction: column;
@@ -37,5 +38,28 @@
     padding: 8px;
 }
 
+/* Barra de paginação */
+.paginacao {
+    list-style-type: none;
+    background-color: var(--primary-color);
+    margin: 16px;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
 
+.paginacao > li {  
+    display: inline-block;
+    margin-right: -4px;
+    padding: 16px;
+}
+
+.paginacao > li.active {  
+    background-color: var(--secondary-color);
+}
+
+.paginacao a {
+    text-decoration: none;
+    color: var(--text-white);
+}
 
