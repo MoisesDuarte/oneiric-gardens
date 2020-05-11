@@ -12,6 +12,8 @@
 
     <div class="voltar">
         <a href="registros.html">< Voltar</a>
+        <button onclick="mudarCor(1)">Padrão</button>
+        <button onclick="mudarCor(2)">Preto</button>
     </div>
 
     <div class="conteudo">
@@ -62,4 +64,20 @@
     </div>
 
 </body>
+
+<script>
+    function mudarCor(opcao) {
+        switch(opcao) {
+            case 1:
+                document.body.style.backgroundColor = "var(--primary-color)";
+                document.body.style.color = "var(--text-white)";
+                break;
+            case 2:
+                document.body.style.backgroundColor = "var(--text-black)";
+                document.body.style.color = "var(--text-white)";
+                break;     
+        }
+    }
+</script>
+
 </html>
