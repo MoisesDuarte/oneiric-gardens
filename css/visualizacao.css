@@ -1,0 +1,43 @@
+body {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.voltar {
+    background-color: var(--secondary-color);
+    padding: 16px;
+}
+
+.voltar > a {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo > ul {
+    border-right: 1px solid white;
+    width: 20%;
+    height: 40vh;
+    list-style-type: none;
+    font-size: 120%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.conteudo > ul > li:first-child {
+    font-weight: 600;
+}
+
+.conteudo > ul > li > a {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+.conteudo > div {
+    width: 80%;
+    padding: 32px;
+}
