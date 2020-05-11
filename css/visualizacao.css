@@ -37,6 +37,10 @@ body {
     color: var(--text-white);
 }
 
+.conteudo > ul > li > a:hover {
+    color: var(--secondary-color);
+}
+
 .conteudo > div {
     width: 80%;
     padding: 32px;
