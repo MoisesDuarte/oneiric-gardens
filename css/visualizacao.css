@@ -13,12 +13,34 @@ body {
     color: var(--text-white);
 }
 
+.voltar > div {
+    float: right;
+}
+
+.voltar > div > button {
+    cursor: pointer;
+    color: var(--text-white);
+    padding: 4px;
+}
+
+.voltar > div > button:nth-child(1) {
+    border: 1px solid var(--text-white);
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.voltar > div > button:nth-child(2) {
+    border: 1px solid var(--text-black);
+    border-radius: 2px;
+    background-color: var(--text-black);
+}
+
 .conteudo {
     display: flex;
 }
 
 .conteudo > ul {
-    border-right: 1px solid white;
+    border-right: 1px solid var(--text-white);
     width: 20%;
     height: 40vh;
     list-style-type: none;
