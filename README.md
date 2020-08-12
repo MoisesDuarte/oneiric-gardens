@@ -1,3 +1,10 @@
-# Site Narrativo
+# Oneiric Gardens
+Layout de site para coleção de narrativas / blog com design responsivo, utilizando apenas HTML5 e CSS.
+
 ## Descrição
-Um layout com HTML e CSS puro. Formulando um layout simples para uma coleção de narrativas online. Também pode ser utilizado como um blog pessoal, dependendo do conteúdo.
+  - Design responsivo para dispositivos mobile  
+  - Landing Page com Showcase de Vídeo & Introdução
+  - Listagem de histórias/postagens com paginação
+  - Leitura de artigo com seletor de cores
+
+
