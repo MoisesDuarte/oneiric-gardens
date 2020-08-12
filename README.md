@@ -1,3 +1,6 @@
+[Português](./README.md) / 
+[English](./README_EN.md)
+
 # Oneiric Gardens
 Layout de site para coleção de narrativas / blog com design responsivo, utilizando apenas HTML5 e CSS.
 
