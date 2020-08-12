@@ -3,33 +3,33 @@ body {
     color: var(--text-white);
 }
 
-.voltar {
+nav {
     background-color: var(--secondary-color);
     padding: 16px;
 }
 
-.voltar > a {
+nav > a {
     text-decoration: none;
     color: var(--text-white);
 }
 
-.voltar > div {
+nav > div {
     float: right;
 }
 
-.voltar > div > button {
+nav > div > button {
     cursor: pointer;
     color: var(--text-white);
     padding: 4px;
 }
 
-.voltar > div > button:nth-child(1) {
+nav > div > button:nth-child(1) {
     border: 0px solid var(--text-white);
     border-radius: 2px;
     background-color: transparent;
 }
 
-.voltar > div > button:nth-child(2) {
+nav > div > button:nth-child(2) {
     border: 1px solid var(--text-black);
     border-radius: 2px;
     background-color: var(--text-black);
@@ -42,7 +42,6 @@ body {
 .conteudo > ul {
     border-right: 1px solid var(--text-white);
     width: 20%;
-    height: 40vh;
     list-style-type: none;
     font-size: 120%;
     margin-top: 32px;
@@ -66,4 +65,21 @@ body {
 .conteudo > div {
     width: 80%;
     padding: 32px;
+}
+
+/* Media Query */
+@media (max-width: 700px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .conteudo > ul { 
+        width: 100%;
+        margin: 24px;
+    }
+
+    .conteudo > div {
+        width: 100%;
+        padding: 24px;
+    }
 }

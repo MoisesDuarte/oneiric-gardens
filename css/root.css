@@ -35,14 +35,12 @@ body {
 .nav-top > li span {
     display: block;
     color: var(--text-white);
-    text-align: center;
     padding: 14px 16px;
 }
 
 .nav-top > li a {
     display: block;
     color: var(--text-white);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -53,4 +51,11 @@ body {
 
 .nav-top > li.active {
     background-color: var(--secondary-color);
+}
+
+/* Media Query */
+@media (max-width: 700px) {
+    .nav-top > li{
+        float: none;
+    }
 }

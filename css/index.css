@@ -61,10 +61,16 @@ h1 {
 
 /* INTRODUÇÃO */
 .introducao {
-    font-size: 150%;
-    text-align: justify;
+    font-size: 1.5rem;
     padding: 32px;
     line-height: 2;
     background-color: var(--primary-color);
     color: var(--text-white);
+}
+
+/* Media Query */
+@media (max-width: 700px) {
+    .introducao {
+        font-size: 1.25em;
+    }
 }
